@@ -1,0 +1,30 @@
+{
+  "name": "business-incubator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahercoder/business-incubator.git"
+  },
+  "author": "Mohirbek Odiljonov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahercoder/business-incubator/issues"
+  },
+  "homepage": "https://github.com/mahercoder/business-incubator#readme",
+  "dependencies": {
+    "archiver": "^5.3.0",
+    "axios": "^0.24.0",
+    "debug": "^4.3.3",
+    "js-beautify": "^1.14.0",
+    "node-cron": "^3.0.0",
+    "redis": "^3.1.2",
+    "telegraf": "^4.7.0",
+    "telegraf-session-local": "^2.1.0",
+    "xlsx": "^0.18.2"
+  }
+}

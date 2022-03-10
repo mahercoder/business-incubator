@@ -1,0 +1,81 @@
+{
+    "language": {
+        "name": "O'zbek",
+        "flag": "🇺🇿",
+        "code": "uz"
+    },
+    "scenes": {
+        "user": {
+            "subscription": {
+                "header": "Loyiha kanal bilan uzviy bog'liq. Iltimos, obuna bo'ling. Undan so'ng, [✅ A'zo bo'ldim] tugmasini bosib botdan foydalanishda davom etishingiz mumkin.",
+                "agree": "✅ A'zo bo'ldim"
+            },
+            
+            "signup": {
+                "fname": {
+                    "header": "Loyiha rahbarining F.I.Sh ni kiriting: ", 
+                    "title": "F.I.Sh:", 
+                    "back": "⬅️ Orqaga" 
+                },
+                "projectname": {
+                    "header": "Loyiha nomini kiriting: ", 
+                    "title": "Loyiha nomi:", 
+                    "back": "⬅️ Orqaga" 
+                },
+                "workplace": {
+                    "header": "Ish joyi yoki o'qish nomini kiriting: ", 
+                    "title": "Ish joyi:", 
+                    "back": "⬅️ Orqaga" 
+                },
+                "getfile": {
+                    "header": "Faylni to'ldirib shu yerga qayta yuboring: ",
+                    "back": "⬅️ Orqaga" 
+                },
+
+                "agreement": {
+                    "header": "<b>Ma'lumotlar to'g'rimi?</b>",
+                    "yes": "✅ Jo'natish",
+                    "no": "❌ Bekor qilish",
+                    "cancelled": "❌ Bekor qilindi. Qayta kiritish uchun /start buyrug'ini bering.",
+                    "sent": "✅ Jo'natildi!"
+                }
+            },
+            
+            "home": {}
+        },
+
+        "admin": {
+            "home": {
+                "header": "Asosiy menyu:",
+                "partnerChannel": "📢 Hamkor kanal",
+                "stat": "📊 Statistika",
+                "getDB": "💾 Ma'lumotlarni yuklash",
+                "publishAd": "📣 Reklama tarqatish",
+
+                "empty_db": "Xotiraga ma'lumotlar yozilmagan!"
+            },
+
+            "partner_channel": {
+                "header": "Hamkor kanal qo'shish uchun undagi ixtiyoriy postni 'forward' qilib shu yerga jo'nating!\n\n<i>Eslatma! Hamkorga aylanish uchun bot kanalda adminlik huquqlariga ega bo'lishi kerak!</i>",
+                "accepted": "✅ Yangi hamkor kanal qo'shildi!",
+                "rejected_contract": "🙅‍♂️ Kanaldan hamkorlik olib tashlandi: ",
+                "rejected": "🙅‍♂️ Bekor qilindi! Bot kanalda mavjud emas!",
+                "err_forward": "🙅‍♂️ Bekor qilindi! Post 'forward' qilinishi shart!",
+                "del": "✖️",
+                "back": "⬅️ Orqaga"
+            },
+
+            "publish_ad": {
+                "header": "<i>Reklama posti bo'yicha cheklovlar mavjud:\n * Postda faqat bitta media(rasm, video yoki fayl)ga ruxsat beriladi!\n * Post ostida tugma bo'lishi mumkin emas!</i>\n\nQuyida reklama postini kiriting:",
+                "agreement": "Reklama posti foydalanuvchilarga yuqoridagi kabi ko'rinadi. Yuborish jarayonini boshlaysizmi?",
+                "started": "Yuborish jarayoni boshlandi...",
+                "ended": "✅ Jarayon yakunlandi! Post foydalanuvchilarga muvaffaqiyatli yetkazildi!",
+                "rejected": "🙅‍♂️ Bekor qilindi! Reklama posti hech kimga yuborilmadi! Iltimos, postni tekshirib qayta yuboring!",
+                "yes": "✅ Boshlash!",
+                "no": "🙅‍♂️ Bekor qilish",
+                "loading": "Jo'natilmoqda...",
+                "back": "⬅️ Orqaga"
+            }
+        }
+    }
+}

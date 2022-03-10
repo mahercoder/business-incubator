@@ -1,0 +1,150 @@
+{
+  "sessions": [
+    {
+      "id": "543588222:543588222",
+      "data": {
+        "__scenes": {},
+        "LANG": "uz",
+        "currentSceneMsg": {
+          "message_id": 2306,
+          "from": {
+            "id": 5227363417,
+            "is_bot": true,
+            "first_name": "Telegrafo",
+            "username": "telegrafo_bot"
+          },
+          "chat": {
+            "id": 543588222,
+            "first_name": "Mohirbek",
+            "username": "mohirbey",
+            "type": "private"
+          },
+          "date": 1646925188,
+          "document": {
+            "file_name": "namuna.docx",
+            "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            "file_id": "BQACAgIAAxkDAAIJAmIqFYRtt6qEnLXpmLsnYnXs-fycAAJgFgAC0ahQSeRrcf1nsgABPCME",
+            "file_unique_id": "AgADYBYAAtGoUEk",
+            "file_size": 13886
+          },
+          "caption": "Faylni to'ldirib shu yerga qayta yuboring:"
+        },
+        "signup_user": {
+          "fname": "Mohirbek",
+          "projectname": "Lalaku",
+          "workplace": "Pupu"
+        },
+        "saved_msg": {
+          "message_id": 2308,
+          "from": {
+            "id": 5227363417,
+            "is_bot": true,
+            "first_name": "Telegrafo",
+            "username": "telegrafo_bot"
+          },
+          "chat": {
+            "id": 543588222,
+            "first_name": "Mohirbek",
+            "username": "mohirbey",
+            "type": "private"
+          },
+          "date": 1646925194,
+          "document": {
+            "file_name": "loyiha haqida ma'lumot.docx",
+            "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            "file_id": "BQACAgIAAxkDAAIJBGIqFYoBAn4n8jnwenGzlzujb2H4AAJhFgAC0ahQSZcTg5SqanNBIwQ",
+            "file_unique_id": "AgADYRYAAtGoUEk",
+            "file_size": 13886
+          },
+          "caption": "F.I.Sh: Mohirbek\nLoyiha nomi: Lalaku\nIsh joyi: Pupu",
+          "caption_entities": [
+            {
+              "offset": 0,
+              "length": 7,
+              "type": "bold"
+            },
+            {
+              "offset": 17,
+              "length": 12,
+              "type": "bold"
+            },
+            {
+              "offset": 37,
+              "length": 9,
+              "type": "bold"
+            }
+          ],
+          "reply_markup": {
+            "inline_keyboard": [
+              [
+                {
+                  "text": "❌ Bekor qilish",
+                  "callback_data": "user.signup.agreement.no"
+                },
+                {
+                  "text": "✅ Jo'natish",
+                  "callback_data": "user.signup.agreement.yes"
+                }
+              ]
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "792684458:792684458",
+      "data": {
+        "__scenes": {
+          "current": "fname",
+          "state": {}
+        },
+        "LANG": "uz",
+        "signup_user": {},
+        "currentSceneMsg": {
+          "message_id": 2357,
+          "from": {
+            "id": 5227363417,
+            "is_bot": true,
+            "first_name": "Telegrafo",
+            "username": "telegrafo_bot"
+          },
+          "chat": {
+            "id": 792684458,
+            "first_name": "Mohirbek",
+            "type": "private"
+          },
+          "date": 1646925629,
+          "text": "Asosiy menyu:",
+          "reply_markup": {
+            "inline_keyboard": [
+              [
+                {
+                  "text": "📢 Hamkor kanal",
+                  "callback_data": "admin.home.partnerChannel"
+                }
+              ],
+              [
+                {
+                  "text": "📊 Statistika",
+                  "callback_data": "admin.home.stat"
+                }
+              ],
+              [
+                {
+                  "text": "💾 Ma'lumotlarni yuklash",
+                  "callback_data": "admin.home.getDB"
+                }
+              ],
+              [
+                {
+                  "text": "📣 Reklama tarqatish",
+                  "callback_data": "admin.home.publishAd"
+                }
+              ]
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

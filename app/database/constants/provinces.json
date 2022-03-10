@@ -1,0 +1,15 @@
+[
+    {"name": "Andijon vil", "order": 0}, 
+    {"name": "Buxoro vil", "order": 1}, 
+    {"name": "Jizzax vil", "order": 2},
+    {"name": "Qashqadaryo vil", "order": 3},
+    {"name": "Navoiy vil", "order": 4}, 
+    {"name": "Namangan vil", "order": 5}, 
+    {"name": "Samarqand vil", "order": 6}, 
+    {"name": "Surxondaryo vil", "order": 7},
+    {"name": "Sirdaryo vil", "order": 8}, 
+    {"name": "Toshkent vil", "order": 9}, 
+    {"name": "Farg'ona vil", "order": 10}, 
+    {"name": "Xorazm vil", "order": 11},
+    {"name": "Toshkent sh", "order": 12}
+]
