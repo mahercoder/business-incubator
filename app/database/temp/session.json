@@ -95,13 +95,13 @@
       "id": "792684458:792684458",
       "data": {
         "__scenes": {
-          "current": "fname",
+          "current": "admin-partnerChannel",
           "state": {}
         },
         "LANG": "uz",
-        "signup_user": {},
+        "signup_user": null,
         "currentSceneMsg": {
-          "message_id": 2357,
+          "message_id": 2925,
           "from": {
             "id": 5227363417,
             "is_bot": true,
@@ -113,32 +113,81 @@
             "first_name": "Mohirbek",
             "type": "private"
           },
-          "date": 1646925629,
-          "text": "Asosiy menyu:",
+          "date": 1647062118,
+          "text": "Hamkor kanal qo'shish uchun undagi ixtiyoriy postni 'forward' qilib shu yerga jo'nating!\n\nEslatma! Hamkorga aylanish uchun bot kanalda adminlik huquqlariga ega bo'lishi kerak!",
+          "entities": [
+            {
+              "offset": 90,
+              "length": 85,
+              "type": "italic"
+            }
+          ],
           "reply_markup": {
             "inline_keyboard": [
               [
                 {
-                  "text": "📢 Hamkor kanal",
-                  "callback_data": "admin.home.partnerChannel"
+                  "text": "Mohirbek | Blog",
+                  "url": "https://t.me/mohirbek_blog"
+                },
+                {
+                  "text": "✖️",
+                  "callback_data": "admin.partner_channel.del--0"
                 }
               ],
               [
                 {
-                  "text": "📊 Statistika",
-                  "callback_data": "admin.home.stat"
+                  "text": "⬅️ Orqaga",
+                  "callback_data": "admin.partner_channel.back"
+                }
+              ]
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "-1001582421086:792684458",
+      "data": {
+        "__scenes": {}
+      }
+    },
+    {
+      "id": "1954122373:1954122373",
+      "data": {
+        "__scenes": {
+          "current": "subscription",
+          "state": {}
+        },
+        "LANG": "uz",
+        "signup_user": null,
+        "currentSceneMsg": {
+          "message_id": 2933,
+          "from": {
+            "id": 5227363417,
+            "is_bot": true,
+            "first_name": "Telegrafo",
+            "username": "telegrafo_bot"
+          },
+          "chat": {
+            "id": 1954122373,
+            "first_name": ".",
+            "username": "afifaqiz",
+            "type": "private"
+          },
+          "date": 1647062151,
+          "text": "Loyiha kanal bilan uzviy bog'liq. Iltimos, obuna bo'ling. Undan so'ng, [✅ A'zo bo'ldim] tugmasini bosib botdan foydalanishda davom etishingiz mumkin.",
+          "reply_markup": {
+            "inline_keyboard": [
+              [
+                {
+                  "text": "Mohirbek | Blog",
+                  "url": "https://t.me/mohirbek_blog"
                 }
               ],
               [
                 {
-                  "text": "💾 Ma'lumotlarni yuklash",
-                  "callback_data": "admin.home.getDB"
-                }
-              ],
-              [
-                {
-                  "text": "📣 Reklama tarqatish",
-                  "callback_data": "admin.home.publishAd"
+                  "text": "✅ A'zo bo'ldim",
+                  "callback_data": "user.subscription.agree"
                 }
               ]
             ]
